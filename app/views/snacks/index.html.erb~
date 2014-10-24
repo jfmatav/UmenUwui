@@ -15,7 +15,9 @@
       <tr>
         <td><%= snack.nombre %></td>
         <td><%= snack.precio %></td>
-        <td><%= idtostring(snack.soda_id)%></td>
+        <td><%= case snack.soda_id 
+                when 1 %><%="o"%>
+                <%= end %></td>
         <td><%= link_to 'Show', snack %></td>
         <td><%= link_to 'Edit', edit_snack_path(snack) %></td>
         <td><%= link_to 'Destroy', snack, method: :delete, data: { confirm: 'Are you sure?' } %></td>

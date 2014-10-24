@@ -12,7 +12,7 @@
 
 <p>
   <strong>Soda:</strong>
-  <%=idtostring(@snack.soda_id)%>
+  <%=idtostring(snack.soda_id)%>
 </p>
 
 <%= link_to 'Edit', edit_snack_path(@snack) %> |

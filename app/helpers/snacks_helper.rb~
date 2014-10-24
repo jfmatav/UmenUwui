@@ -1,0 +1,8 @@
+module SnacksHelper
+
+  def idtostring(number)
+    idsToStrings = {"1" => "Odontología"}
+    idsToStrings[number.to_s]
+  end
+
+end
