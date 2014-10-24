@@ -32,7 +32,7 @@
 
 <p>
   <strong>Soda:</strong>
-  <%= idtostring(@plato.soda_id) %>
+  <%= @plato.soda_id %>
 </p>
 
 <%= link_to 'Edit', edit_plato_path(@plato) %> |
