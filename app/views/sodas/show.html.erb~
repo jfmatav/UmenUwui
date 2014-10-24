@@ -6,11 +6,6 @@
 </p>
 
 <p>
-  <strong>Descripción:</strong>
-  <%= @soda.descripcion %>
-</p>
-
-<p>
   <strong>Latitud:</strong>
   <%= @soda.lat %>
 </p>
@@ -20,6 +15,10 @@
   <%= @soda.long %>
 </p>
 
+<p>
+  <strong>Descripcion:</strong>
+  <%= @soda.descripcion %>
+</p>
 
 <%= link_to 'Edit', edit_soda_path(@soda) %> |
 <%= link_to 'Back', sodas_path %>
