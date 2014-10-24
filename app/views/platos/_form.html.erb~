@@ -27,17 +27,17 @@
     <%= f.label :tipo %><br>
     <%= f.text_field :tipo %>
   </div>
-  <div class="field">
+  <!--div class="field">
     <%= f.label :calificaciones %><br>
     <%= f.number_field :calificaciones %>
   </div>
   <div class="field">
     <%= f.label :total %><br>
     <%= f.number_field :total %>
-  </div>
+  </div-->
   <div class="field">
     <%= f.label :soda_id %><br>
-    <%= f.number_field :soda_id %>
+    <%=f.select :soda_id, options_for_select([["Odontología", "1"], ["Derecho", "2"], ["Economía", "3"], ["Agronomía", "4"], ["Generales", "5"], ["Educación", "6"], ["Sociales", "7"], ["Comedor", "8"]])%>
   </div>
   <div class="actions">
     <%= f.submit %>

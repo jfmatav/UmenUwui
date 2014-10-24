@@ -1207,3 +1207,386 @@ Processing by PlatosController#index as HTML
   [1m[36mPlato Load (0.3ms)[0m  [1mSELECT "platos".* FROM "platos"[0m
   Rendered platos/index.html.erb within layouts/application (2.6ms)
 Completed 200 OK in 131ms (Views: 130.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/platos/new" for 127.0.0.1 at 2014-10-24 15:36:39 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PlatosController#new as HTML
+  Rendered platos/_form.html.erb (34.6ms)
+  Rendered platos/new.html.erb within layouts/application (39.9ms)
+Completed 200 OK in 268ms (Views: 237.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2014-10-24 15:36:40 -0600
+
+
+Started GET "/assets/platos.css?body=1" for 127.0.0.1 at 2014-10-24 15:36:40 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-24 15:36:40 -0600
+
+
+Started GET "/assets/snacks.css?body=1" for 127.0.0.1 at 2014-10-24 15:36:40 -0600
+
+
+Started GET "/assets/sodas.css?body=1" for 127.0.0.1 at 2014-10-24 15:36:40 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 15:36:40 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 15:36:40 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 15:36:40 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 15:36:40 -0600
+
+
+Started GET "/assets/usuarios.css?body=1" for 127.0.0.1 at 2014-10-24 15:36:40 -0600
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2014-10-24 15:36:40 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 15:36:40 -0600
+
+
+Started GET "/assets/usuarios.js?body=1" for 127.0.0.1 at 2014-10-24 15:36:40 -0600
+
+
+Started GET "/assets/snacks.js?body=1" for 127.0.0.1 at 2014-10-24 15:36:40 -0600
+
+
+Started GET "/assets/sodas.js?body=1" for 127.0.0.1 at 2014-10-24 15:36:40 -0600
+
+
+Started GET "/assets/platos.js?body=1" for 127.0.0.1 at 2014-10-24 15:36:40 -0600
+
+
+Started POST "/platos" for 127.0.0.1 at 2014-10-24 15:37:13 -0600
+Processing by PlatosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hUv8lC84c/VGv2KYH4a81KyGdol+qVPG6zJ2Udp3UCs=", "plato"=>{"nombre"=>"Arroz cantones", "precio"=>"2000", "categoria"=>"Basico", "tipo"=>"Almuerzo", "calificaciones"=>"15", "total"=>"15", "soda_id"=>"2"}, "commit"=>"Create Plato"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "platos" ("calificaciones", "categoria", "created_at", "nombre", "precio", "soda_id", "tipo", "total", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["calificaciones", 0], ["categoria", "Basico"], ["created_at", "2014-10-24 21:37:13.491937"], ["nombre", "Arroz cantones"], ["precio", 2000], ["soda_id", 2], ["tipo", "Almuerzo"], ["total", 0], ["updated_at", "2014-10-24 21:37:13.491937"]]
+  [1m[35m (252.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/platos/3
+Completed 302 Found in 264ms (ActiveRecord: 253.8ms)
+
+
+Started GET "/platos/3" for 127.0.0.1 at 2014-10-24 15:37:13 -0600
+Processing by PlatosController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPlato Load (0.4ms)[0m  [1mSELECT  "platos".* FROM "platos"  WHERE "platos"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered platos/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 128ms (Views: 123.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/platos.css?body=1" for 127.0.0.1 at 2014-10-24 15:37:13 -0600
+
+
+Started GET "/assets/snacks.css?body=1" for 127.0.0.1 at 2014-10-24 15:37:13 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-24 15:37:13 -0600
+
+
+Started GET "/assets/sodas.css?body=1" for 127.0.0.1 at 2014-10-24 15:37:14 -0600
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2014-10-24 15:37:14 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 15:37:14 -0600
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2014-10-24 15:37:14 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 15:37:14 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 15:37:14 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 15:37:14 -0600
+
+
+Started GET "/assets/usuarios.css?body=1" for 127.0.0.1 at 2014-10-24 15:37:14 -0600
+
+
+Started GET "/assets/sodas.js?body=1" for 127.0.0.1 at 2014-10-24 15:37:14 -0600
+
+
+Started GET "/assets/snacks.js?body=1" for 127.0.0.1 at 2014-10-24 15:37:14 -0600
+
+
+Started GET "/assets/usuarios.js?body=1" for 127.0.0.1 at 2014-10-24 15:37:14 -0600
+
+
+Started GET "/assets/platos.js?body=1" for 127.0.0.1 at 2014-10-24 15:37:14 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 15:37:14 -0600
+
+
+Started GET "/platos" for 127.0.0.1 at 2014-10-24 15:37:23 -0600
+Processing by PlatosController#index as HTML
+  [1m[35mPlato Load (0.3ms)[0m  SELECT "platos".* FROM "platos"
+  Rendered platos/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 126ms (Views: 124.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/platos/1" for 127.0.0.1 at 2014-10-24 15:38:31 -0600
+Processing by PlatosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPlato Load (0.2ms)[0m  [1mSELECT  "platos".* FROM "platos"  WHERE "platos"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered platos/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 118ms (Views: 116.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/platos/1/edit" for 127.0.0.1 at 2014-10-24 15:38:35 -0600
+Processing by PlatosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPlato Load (0.3ms)[0m  SELECT  "platos".* FROM "platos"  WHERE "platos"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered platos/_form.html.erb (7.7ms)
+  Rendered platos/edit.html.erb within layouts/application (37.0ms)
+Completed 200 OK in 230ms (Views: 226.9ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/platos/1" for 127.0.0.1 at 2014-10-24 15:38:55 -0600
+Processing by PlatosController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hUv8lC84c/VGv2KYH4a81KyGdol+qVPG6zJ2Udp3UCs=", "plato"=>{"nombre"=>"Pechuga en salsa", "precio"=>"2100", "categoria"=>"Especial", "tipo"=>"Almuerzo", "soda_id"=>"1"}, "commit"=>"Update Plato", "id"=>"1"}
+  [1m[36mPlato Load (0.2ms)[0m  [1mSELECT  "platos".* FROM "platos"  WHERE "platos"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mUPDATE "platos" SET "precio" = ?, "updated_at" = ? WHERE "platos"."id" = 1[0m  [["precio", 2100], ["updated_at", "2014-10-24 21:38:55.211885"]]
+  [1m[35m (171.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/platos/1
+Completed 302 Found in 179ms (ActiveRecord: 172.0ms)
+
+
+Started GET "/platos/1" for 127.0.0.1 at 2014-10-24 15:38:55 -0600
+Processing by PlatosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPlato Load (0.3ms)[0m  [1mSELECT  "platos".* FROM "platos"  WHERE "platos"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered platos/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 137ms (Views: 134.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2014-10-24 15:38:55 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-24 15:38:55 -0600
+
+
+Started GET "/assets/platos.css?body=1" for 127.0.0.1 at 2014-10-24 15:38:55 -0600
+
+
+Started GET "/assets/snacks.css?body=1" for 127.0.0.1 at 2014-10-24 15:38:55 -0600
+
+
+Started GET "/assets/sodas.css?body=1" for 127.0.0.1 at 2014-10-24 15:38:55 -0600
+
+
+Started GET "/assets/usuarios.css?body=1" for 127.0.0.1 at 2014-10-24 15:38:55 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 15:38:55 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 15:38:55 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 15:38:55 -0600
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2014-10-24 15:38:55 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 15:38:55 -0600
+
+
+Started GET "/assets/platos.js?body=1" for 127.0.0.1 at 2014-10-24 15:38:55 -0600
+
+
+Started GET "/assets/snacks.js?body=1" for 127.0.0.1 at 2014-10-24 15:38:55 -0600
+
+
+Started GET "/assets/sodas.js?body=1" for 127.0.0.1 at 2014-10-24 15:38:55 -0600
+
+
+Started GET "/assets/usuarios.js?body=1" for 127.0.0.1 at 2014-10-24 15:38:55 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 15:38:55 -0600
+
+
+Started GET "/platos" for 127.0.0.1 at 2014-10-24 15:38:58 -0600
+Processing by PlatosController#index as HTML
+  [1m[35mPlato Load (0.3ms)[0m  SELECT "platos".* FROM "platos"
+  Rendered platos/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 138ms (Views: 136.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/platos/2/edit" for 127.0.0.1 at 2014-10-24 15:39:00 -0600
+Processing by PlatosController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mPlato Load (0.3ms)[0m  [1mSELECT  "platos".* FROM "platos"  WHERE "platos"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered platos/_form.html.erb (6.2ms)
+  Rendered platos/edit.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 132ms (Views: 129.0ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/platos/2" for 127.0.0.1 at 2014-10-24 15:39:05 -0600
+Processing by PlatosController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hUv8lC84c/VGv2KYH4a81KyGdol+qVPG6zJ2Udp3UCs=", "plato"=>{"nombre"=>"Alitas de pescado", "precio"=>"1600", "categoria"=>"Almuerzo", "tipo"=>"Básico", "soda_id"=>"4"}, "commit"=>"Update Plato", "id"=>"2"}
+  [1m[35mPlato Load (0.2ms)[0m  SELECT  "platos".* FROM "platos"  WHERE "platos"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.7ms)[0m  UPDATE "platos" SET "soda_id" = ?, "updated_at" = ? WHERE "platos"."id" = 2  [["soda_id", 4], ["updated_at", "2014-10-24 21:39:05.623858"]]
+  [1m[36m (589.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/platos/2
+Completed 302 Found in 601ms (ActiveRecord: 592.6ms)
+
+
+Started GET "/platos/2" for 127.0.0.1 at 2014-10-24 15:39:06 -0600
+Processing by PlatosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mPlato Load (0.2ms)[0m  SELECT  "platos".* FROM "platos"  WHERE "platos"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered platos/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 157ms (Views: 155.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2014-10-24 15:39:06 -0600
+
+
+Started GET "/assets/platos.css?body=1" for 127.0.0.1 at 2014-10-24 15:39:06 -0600
+
+
+Started GET "/assets/usuarios.css?body=1" for 127.0.0.1 at 2014-10-24 15:39:06 -0600
+
+
+Started GET "/assets/sodas.css?body=1" for 127.0.0.1 at 2014-10-24 15:39:06 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-24 15:39:06 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 15:39:06 -0600
+
+
+Started GET "/assets/snacks.css?body=1" for 127.0.0.1 at 2014-10-24 15:39:06 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 15:39:06 -0600
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2014-10-24 15:39:06 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 15:39:06 -0600
+
+
+Started GET "/assets/platos.js?body=1" for 127.0.0.1 at 2014-10-24 15:39:06 -0600
+
+
+Started GET "/assets/snacks.js?body=1" for 127.0.0.1 at 2014-10-24 15:39:06 -0600
+
+
+Started GET "/assets/sodas.js?body=1" for 127.0.0.1 at 2014-10-24 15:39:06 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 15:39:06 -0600
+
+
+Started GET "/assets/usuarios.js?body=1" for 127.0.0.1 at 2014-10-24 15:39:06 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 15:39:06 -0600
+
+
+Started GET "/platos" for 127.0.0.1 at 2014-10-24 15:39:08 -0600
+Processing by PlatosController#index as HTML
+  [1m[36mPlato Load (0.3ms)[0m  [1mSELECT "platos".* FROM "platos"[0m
+  Rendered platos/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 134ms (Views: 132.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/platos/new" for 127.0.0.1 at 2014-10-24 15:39:17 -0600
+Processing by PlatosController#new as HTML
+  Rendered platos/_form.html.erb (6.2ms)
+  Rendered platos/new.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 134ms (Views: 132.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/platos" for 127.0.0.1 at 2014-10-24 15:39:53 -0600
+Processing by PlatosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hUv8lC84c/VGv2KYH4a81KyGdol+qVPG6zJ2Udp3UCs=", "plato"=>{"nombre"=>"Camarones Jumbo", "precio"=>"2100", "categoria"=>"Especial", "tipo"=>"Almuerzo", "soda_id"=>"1"}, "commit"=>"Create Plato"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "platos" ("calificaciones", "categoria", "created_at", "nombre", "precio", "soda_id", "tipo", "total", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["calificaciones", 0], ["categoria", "Especial"], ["created_at", "2014-10-24 21:39:53.446437"], ["nombre", "Camarones Jumbo"], ["precio", 2100], ["soda_id", 1], ["tipo", "Almuerzo"], ["total", 0], ["updated_at", "2014-10-24 21:39:53.446437"]]
+  [1m[35m (295.2ms)[0m  commit transaction
+Redirected to http://localhost:3000/platos/4
+Completed 302 Found in 301ms (ActiveRecord: 295.8ms)
+
+
+Started GET "/platos/4" for 127.0.0.1 at 2014-10-24 15:39:53 -0600
+Processing by PlatosController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mPlato Load (0.2ms)[0m  [1mSELECT  "platos".* FROM "platos"  WHERE "platos"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered platos/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 127ms (Views: 125.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2014-10-24 15:39:53 -0600
+
+
+Started GET "/assets/platos.css?body=1" for 127.0.0.1 at 2014-10-24 15:39:53 -0600
+
+
+Started GET "/assets/snacks.css?body=1" for 127.0.0.1 at 2014-10-24 15:39:53 -0600
+
+
+Started GET "/assets/usuarios.css?body=1" for 127.0.0.1 at 2014-10-24 15:39:53 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-24 15:39:53 -0600
+
+
+Started GET "/assets/sodas.css?body=1" for 127.0.0.1 at 2014-10-24 15:39:54 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 15:39:54 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 15:39:54 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 15:39:54 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 15:39:54 -0600
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2014-10-24 15:39:54 -0600
+
+
+Started GET "/assets/platos.js?body=1" for 127.0.0.1 at 2014-10-24 15:39:54 -0600
+
+
+Started GET "/assets/snacks.js?body=1" for 127.0.0.1 at 2014-10-24 15:39:54 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 15:39:54 -0600
+
+
+Started GET "/assets/usuarios.js?body=1" for 127.0.0.1 at 2014-10-24 15:39:54 -0600
+
+
+Started GET "/assets/sodas.js?body=1" for 127.0.0.1 at 2014-10-24 15:39:54 -0600
+
+
+Started GET "/platos" for 127.0.0.1 at 2014-10-24 15:40:02 -0600
+Processing by PlatosController#index as HTML
+  [1m[35mPlato Load (0.4ms)[0m  SELECT "platos".* FROM "platos"
+  Rendered platos/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 140ms (Views: 137.9ms | ActiveRecord: 0.4ms)
