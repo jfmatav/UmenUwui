@@ -35,5 +35,15 @@
   <%= idtostring(@plato.soda_id) %>
 </p>
 
+<p>
+  <strong>Semana:</strong>
+  <%= @plato.semana %>
+</p>
+
+<p>
+  <strong>Día:</strong>
+  <%= numtodia(@plato.dia) %>
+</p>
+
 <%= link_to 'Edit', edit_plato_path(@plato) %> |
 <%= link_to 'Back', platos_path %>

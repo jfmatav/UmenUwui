@@ -15,10 +15,10 @@
   <%= @plato.categoria %>
 </p>
 
-<p>
+<!--p>
   <strong>Tipo:</strong>
   <%= @plato.tipo %>
-</p>
+</p-->
 
 <p>
   <strong>Calificaciones:</strong>
@@ -33,6 +33,16 @@
 <p>
   <strong>Soda:</strong>
   <%= idtostring(@plato.soda_id) %>
+</p>
+
+<p>
+  <strong>Semana:</strong>
+  <%= @plato.semana %>
+</p>
+
+<p>
+  <strong>Día:</strong>
+  <%= numtoda(@plato.dia) %>
 </p>
 
 <%= link_to 'Edit', edit_plato_path(@plato) %> |

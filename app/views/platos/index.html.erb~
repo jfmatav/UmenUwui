@@ -10,6 +10,8 @@
       <th>Calificaciones</th>
       <th>Total</th>
       <th>Soda</th>
+      <th>Semana</th>
+      <th>Día</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -24,6 +26,8 @@
         <td><%= plato.calificaciones %></td>
         <td><%= plato.total %></td>
         <td><%= idtostring(plato.soda_id) %></td>
+        <td><%= plato.semana %></td>
+        <td>Soda</td>
         <td><%= link_to 'Show', plato %></td>
         <td><%= link_to 'Edit', edit_plato_path(plato) %></td>
         <td><%= link_to 'Destroy', plato, method: :delete, data: { confirm: 'Are you sure?' } %></td>

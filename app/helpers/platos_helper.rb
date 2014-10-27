@@ -8,4 +8,9 @@ module PlatosHelper
     idsToStrings[number.to_s]
   end
 
+  def numtodia(number)
+    numToDia = {"1" => "Lunes", "2" => "Martes", "3" => "Miércoles", "4" => "Jueves", "5" => "Viernes"}
+    numToDia[number.to_s]
+  end
+
 end
