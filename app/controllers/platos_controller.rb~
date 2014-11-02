@@ -27,6 +27,7 @@ class PlatosController < ApplicationController
     @plato = Plato.new(plato_params)
     @plato.calificaciones = 0
     @plato.total = 0
+    @plato.promedio = 0
 
     respond_to do |format|
       if @plato.save
