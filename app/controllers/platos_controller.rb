@@ -4,7 +4,7 @@ class PlatosController < ApplicationController
   # GET /platos
   # GET /platos.json
   def index
-    @platos = Plato.all
+    @platos = Plato.all.order(:soda_id).order(:semana).order(:dia).order(:categoria)
   end
 
   # GET /platos/1
