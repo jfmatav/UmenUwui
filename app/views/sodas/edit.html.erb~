@@ -90,7 +90,7 @@
             <div id="middleContainer" class="box">
                 <div id="ctitle">
 
-                    Nueva soda
+                    Sodas
 
                 </div>
                 
@@ -98,6 +98,10 @@
                     <%= render 'form' %>
                 </div>
                 <ul class="comicNav">
+                    <li>
+
+                            <%= link_to 'Mostrar', @soda %> 
+                    </li>
                     <li>
 
                             <%= link_to 'Atrás', sodas_path %>
@@ -122,5 +126,3 @@
 
         -->
     </html>
-
-
