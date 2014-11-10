@@ -37,28 +37,28 @@
                         <li>
                             <a href="http://what-if.xkcd.com">
 
-                                Platos
+                                <%= link_to 'Platos', platos_path %>
 
                             </a>
                         </li>
                         <li>
                             <a href="http://blag.xkcd.com">
 
-                                Snacks
+                                <%= link_to 'Snacks', snacks_path %>
 
                             </a>
                         </li>
                         <li>
                             <a href="http://store.xkcd.com/">
 
-                                Comentarios
+                                <%= link_to 'Comentarios', comentarios_path %>
 
                             </a>
                         </li>
                         <li>
                             <a href="/about" rel="author">
 
-                                Usuarios
+                                <%= link_to 'Usuarios', usuarios_path %>
 
                             </a>
                         </li>
