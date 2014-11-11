@@ -90,7 +90,7 @@
             <div id="middleContainer" class="box">
                 <div id="ctitle">
 
-                    Sodas
+                    Platos
 
                 </div>
                 
@@ -123,9 +123,9 @@
                         <td><%= idtostring(plato.soda_id) %></td>
                         <td><%= plato.semana %></td>
                         <td><%= numtodia(plato.dia) %></td>
-                        <td><%= link_to 'Show', plato %></td>
-                        <td><%= link_to 'Edit', edit_plato_path(plato) %></td>
-                        <td><%= link_to 'Destroy', plato, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+                        <td><%= link_to 'Mostrar', plato %></td>
+                        <td><%= link_to 'Editar', edit_plato_path(plato) %></td>
+                        <td><%= link_to 'Borrar', plato, method: :delete, data: { confirm: 'Are you sure?' } %></td>
                       </tr>
                     <% end %>
                     </tbody>
