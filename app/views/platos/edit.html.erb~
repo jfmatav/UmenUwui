@@ -95,46 +95,16 @@
                 </div>
                 
                 <div id="comic">
-                  <table>
-                    <thead>
-                      <tr>
-                        <th>Nombre</th>
-                        <th>Precio</th>
-                        <th>Categoria</th>
-                        <!--th>Tipo</th-->
-                        <th>Calificaciones</th>
-                        <th>Total</th>
-                        <th>Soda</th>
-                        <th>Semana</th>
-                        <th>Día</th>
-                        <th colspan="3"></th>
-                      </tr>
-                    </thead>
-                
-                    <tbody>
-                    <% @platos.each do |plato| %>
-                      <tr>
-                        <td><%= plato.nombre %></td>
-                        <td><%= plato.precio %></td>
-                        <td><%= plato.categoria %></td>
-                        <!--td><%= plato.tipo %></td-->
-                        <td><%= plato.calificaciones %></td>
-                        <td><%= plato.total %></td>
-                        <td><%= idtostring(plato.soda_id) %></td>
-                        <td><%= plato.semana %></td>
-                        <td><%= numtodia(plato.dia) %></td>
-                        <td><%= link_to 'Show', plato %></td>
-                        <td><%= link_to 'Edit', edit_plato_path(plato) %></td>
-                        <td><%= link_to 'Destroy', plato, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-                      </tr>
-                    <% end %>
-                    </tbody>
-                  </table>
+                  <%= render 'form' %>
                 </div>
                 <ul class="comicNav">
                     <li>
 
-                            <%= link_to 'Ingresar plato', new_plato_path %>
+                            <%= link_to 'Mostrar', @plato %>
+                    </li>
+                    <li>
+
+                            <%= link_to 'Atrás', platos_path %>
                     </li>
                 </ul>
                 <br>
@@ -156,7 +126,3 @@
 
         -->
     </html>
-
-
-
-
