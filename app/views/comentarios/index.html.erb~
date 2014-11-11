@@ -88,46 +88,44 @@
             <div id="middleContainer" class="box">
                 <div id="ctitle">
 
-                    Comentario
+                    Comentarios
 
                 </div>
                 
                 <div id="comic">
                   
-                  <p>
-                    <strong>Comentario:</strong>
-                    <%= @comentario.comentario %>
-                  </p>
+                    <table>
+                      <thead>
+                        <tr>
+                          <th>Comentario</th>
+                          <th>Puntos</th>
+                          <th>Usuario</th>
+                          <th>Plato</th>
+                          <th colspan="3"></th>
+                        </tr>
+                      </thead>
 
-                  <p>
-                    <strong>Puntos:</strong>
-                    <%= @comentario.puntos %>
-                  </p>
-
-                  <p>
-                    <strong>Usuario:</strong>
-                    <%= @comentario.usuario_id %>
-                  </p>
-
-                  <p>
-                    <strong>Plato:</strong>
-                    <%= @comentario.plato_id %>
-                  </p>
-
+                      <tbody>
+                        <% @comentarios.each do |comentario| %>
+                          <tr>
+                            <td><%= comentario.comentario %></td>
+                            <td><%= comentario.puntos %></td>
+                            <td><%= comentario.usuario_id %></td>
+                            <td><%= comentario.plato_id %></td>
+                            <td><%= link_to 'Mostrar', comentario %></td>
+                            <td><%= link_to 'Editar', edit_comentario_path(comentario) %></td>
+                            <td><%= link_to 'Borrar', comentario, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+                          </tr>
+                        <% end %>
+                      </tbody>
+                    </table>
 
                 </div>
                 <ul class="comicNav">
-                    <li>
-                            
-
-                                <%= link_to 'Editar', edit_comentario_path(@comentario) %>
-
-                           
-                        </li>
                         <li>
                             
 
-                                <%= link_to 'Atrás', comentarios_path %>
+                                <%= link_to 'Agregar comentario', new_comentario_path %>
 
                             
                         </li>
@@ -151,3 +149,14 @@
 
         -->
     </html>
+
+
+
+
+
+
+
+
+<br>
+
+<%= link_to 'New Comentario', new_comentario_path %>
