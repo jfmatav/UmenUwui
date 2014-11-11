@@ -1,0 +1,33 @@
+<%= form_for(@acompanamiento) do |f| %>
+  <% if @acompanamiento.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@acompanamiento.errors.count, "error") %> prohibited this acompanamiento from being saved:</h2>
+
+      <ul>
+      <% @acompanamiento.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :acompanamientos %><br>
+    <%= f.text_area :acompanamientos %>
+  </div>
+  <div class="field">
+    <%= f.label :dia %><br>
+    <%= f.number_field :dia %>
+  </div>
+  <div class="field">
+    <%= f.label :semana %><br>
+    <%= f.number_field :semana %>
+  </div>
+  <div class="field">
+    <%= f.label :soda_id %><br>
+    <%= f.number_field :soda_id %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Acompanamientos:</strong>
+  <%= @acompanamiento.acompanamientos %>
+</p>
+
+<p>
+  <strong>Dia:</strong>
+  <%= @acompanamiento.dia %>
+</p>
+
+<p>
+  <strong>Semana:</strong>
+  <%= @acompanamiento.semana %>
+</p>
+
+<p>
+  <strong>Soda:</strong>
+  <%= @acompanamiento.soda_id %>
+</p>
+
+<%= link_to 'Edit', edit_acompanamiento_path(@acompanamiento) %> |
+<%= link_to 'Back', acompanamientos_path %>
