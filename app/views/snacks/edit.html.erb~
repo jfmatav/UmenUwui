@@ -1,5 +1,3 @@
-
-
     <!--
 
     ?xml version="1.0" encoding="UTF-8" ?
@@ -95,34 +93,17 @@
                 </div>
                 
                 <div id="comic">
-                  <table>
-                    <thead>
-                      <tr>
-                        <th>Nombre</th>
-                        <th>Precio</th>
-                        <th>Soda</th>
-                        <th colspan="3"></th>
-                      </tr>
-                    </thead>
+                  <%= render 'form' %>
 
-                    <tbody>
-                      <% @snacks.each do |snack| %>
-                        <tr>
-                          <td><%= snack.nombre %></td>
-                          <td><%= snack.precio %></td>
-                          <td><%= idtostring(snack.soda_id)%></td>
-                          <td><%= link_to 'Show', snack %></td>
-                          <td><%= link_to 'Edit', edit_snack_path(snack) %></td>
-                          <td><%= link_to 'Destroy', snack, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-                        </tr>
-                      <% end %>
-                    </tbody>
-                  </table>
                 </div>
                 <ul class="comicNav">
                     <li>
 
-                            <%= link_to 'Ingresar snack', new_snack_path %>
+                            <%= link_to 'Mostrar', @snack %>
+                    </li>
+                    <li>
+
+                            <%= link_to 'Atrás', snacks_path %>
                     </li>
                 </ul>
                 <br>
