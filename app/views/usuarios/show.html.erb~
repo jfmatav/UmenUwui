@@ -88,22 +88,29 @@
             <div id="middleContainer" class="box">
                 <div id="ctitle">
 
-                    Comentario nuevo
+                    Usuarios
 
                 </div>
                 
                 <div id="comic">
                   
-                    <%= render 'form' %>
+                    <p>
+                      <strong>Nombre:</strong>
+                      <%= @usuario.nombre %>
+                    </p>
+
+                    <p>
+                      <strong>Direccion:</strong>
+                      <%= @usuario.direccion %>
+                    </p>
 
                 </div>
                 <ul class="comicNav">
                         <li>
-                            
-
+                                <%= link_to 'Editar', edit_usuario_path(@usuario) %>
+                        </li>
+                        <li>
                                 <%= link_to 'Atrás', usuarios_path %>
-
-                            
                         </li>
                 </ul>
                 <br>
@@ -125,4 +132,3 @@
 
         -->
    </html>
-

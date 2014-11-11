@@ -99,6 +99,9 @@
                 </div>
                 <ul class="comicNav">
                         <li>
+                                <%= link_to 'Mostrar', @usuario %> 
+                        </li>
+                        <li>
                             
 
                                 <%= link_to 'Atrás', usuarios_path %>
@@ -125,4 +128,5 @@
 
         -->
    </html>
+
 
