@@ -41,13 +41,14 @@ img{
 #topLeft{
 	width:166px;
 	float:left;
-	position:relative;
+	/*position:relative;*/
 	text-align:left;
 	padding: 17px;
 }
 #topLeft ul {
     margin: 0;
     list-style-type: none;
+    text-align: left;
 }
 #topLeft a {
     color: #282B30;

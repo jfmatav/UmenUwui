@@ -48,6 +48,7 @@ img{
 #topLeft ul {
     margin: 0;
     list-style-type: none;
+    text-align: left;
 }
 #topLeft a {
     color: #282B30;

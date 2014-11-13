@@ -6,6 +6,7 @@ class CreateAcompanamientos < ActiveRecord::Migration
       t.integer :semana
       t.integer :soda_id
 
+      t.timestamps
     end
   end
 end
