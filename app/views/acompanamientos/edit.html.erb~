@@ -93,39 +93,21 @@
             <div id="middleContainer" class="box">
                 <div id="ctitle">
 
-                    Acompañamiento
+                    Acompañamientos
 
                 </div>
                 
                 <div id="comic">
                   
-                    <p>
-                      <strong>Acompanamientos:</strong>
-                      <%= @acompanamiento.acompanamientos %>
-                    </p>
-
-                    <p>
-                      <strong>Dia:</strong>
-                      <%= numtodia(@acompanamiento.dia) %>
-                    </p>
-
-                    <p>
-                      <strong>Semana:</strong>
-                      <%= @acompanamiento.semana %>
-                    </p>
-
-                    <p>
-                      <strong>Soda:</strong>
-                      <%= idtostring(@acompanamiento.soda_id) %>
-                    </p>
+                    <%= render 'form' %>
 
                 </div>
                 <ul class="comicNav">
                         <li>
-                                <%= link_to 'Editar', edit_acompanamiento_path(@acompanamiento) %>
+                                <%= link_to 'Mostrar', @acompanamiento %>
                         </li>
                         <li>
-                                <%= link_to 'Atrás', acompanamientos_path %>
+                                <%= link_to 'Back', acompanamientos_path %>
                         </li>
                 </ul>
                 <br>
