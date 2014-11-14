@@ -99,10 +99,10 @@
                 
                 <div id="comic">
                   
-                    <p>
+                    <!--p>
                       <strong>Nombre:</strong>
                       <%= @usuario.nombre %>
-                    </p>
+                    </p-->
 
                     <p>
                       <strong>Dirección:</strong>
@@ -111,7 +111,7 @@
 
                     <p>
                       <strong>Contraseña:</strong>
-                      <%= @usuario.usuario %>
+                      <%= @usuario.password %>
                     </p>
 
 
