@@ -56,7 +56,7 @@ img{
     font-weight: 800;
 }
 #topLeft a:hover {
-    /*text-decoration: underline;*/
+    text-decoration: underline;
     background-color: #FFF;
 }
 #bgLeft {
