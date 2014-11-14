@@ -60,6 +60,11 @@
 
                            
                         </li>
+                        <li>
+
+                                <%= link_to 'Extras', acompanamientos_path %>
+
+                        </li>
                     </ul>
                 </div>
                 <div id="topRight">
@@ -100,9 +105,15 @@
                     </p>
 
                     <p>
-                      <strong>Direccion:</strong>
+                      <strong>Dirección:</strong>
                       <%= @usuario.direccion %>
                     </p>
+
+                    <p>
+                      <strong>Contraseña:</strong>
+                      <%= @usuario.usuario %>
+                    </p>
+
 
                 </div>
                 <ul class="comicNav">
