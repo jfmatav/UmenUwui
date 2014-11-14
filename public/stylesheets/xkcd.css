@@ -57,6 +57,7 @@ img{
 }
 #topLeft a:hover {
     text-decoration: underline;
+    background-color: #FFF;
 }
 #bgLeft {
 	float: left;

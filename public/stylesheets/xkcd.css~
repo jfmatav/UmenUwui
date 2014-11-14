@@ -41,7 +41,7 @@ img{
 #topLeft{
 	width:166px;
 	float:left;
-	/*position:relative;*/
+	position:relative;
 	text-align:left;
 	padding: 17px;
 }
@@ -56,7 +56,8 @@ img{
     font-weight: 800;
 }
 #topLeft a:hover {
-    text-decoration: underline;
+    /*text-decoration: underline;*/
+    background-color: #FFF;
 }
 #bgLeft {
 	float: left;
