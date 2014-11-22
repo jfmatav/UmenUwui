@@ -15,7 +15,7 @@ Rails.application.routes.draw do
 
   get 'user_sessions/destroy'
 
-  resources :users
+  #resources :users
 
   resources :acompanamientos
 
