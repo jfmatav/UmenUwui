@@ -106,7 +106,7 @@
 
                     <p>
                       <strong>Dia:</strong>
-                      <%= @acompanamiento.dia %>
+                      <%= numtodia(@acompanamiento.dia) %>
                     </p>
 
                     <p>
@@ -116,7 +116,7 @@
 
                     <p>
                       <strong>Soda:</strong>
-                      <%= @acompanamiento.soda_id %>
+                      <%= idtostring(@acompanamiento.soda_id) %>
                     </p>
 
                 </div>

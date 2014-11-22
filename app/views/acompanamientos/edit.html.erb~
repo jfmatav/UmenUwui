@@ -107,7 +107,7 @@
                                 <%= link_to 'Mostrar', @acompanamiento %>
                         </li>
                         <li>
-                                <%= link_to 'Back', acompanamientos_path %>
+                                <%= link_to 'Atrás', acompanamientos_path %>
                         </li>
                 </ul>
                 <br>

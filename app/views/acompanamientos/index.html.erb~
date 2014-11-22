@@ -71,7 +71,7 @@
                     <div id="masthead">
                         <span>                                
                            <!--img width="185" height="83" alt="xkcd.com logo" src="http://imgs.xkcd.com/static/terrible_small_logo.png"-->
-                           <%= link_to(image_tag("UmenU 1.png", size: "185x120"), root_path) %>
+                           <%= link_to(image_tag("UmenU 1.png", size: "185x120"), welcome_path) %>
                         </span>
                         <span id="slogan">
 

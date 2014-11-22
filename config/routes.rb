@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
-  root :to => 'users#index'
+  #root :to => 'users#index'
 
   resource :user_sessions
+
+  root 'user_sessions#new'
 
   get 'login' => 'user_sessions#new', :as => :login
 
@@ -18,6 +20,8 @@ Rails.application.routes.draw do
   resources :acompanamientos
 
   #root 'welcome#index'
+
+  get 'welcome' => 'welcome#index', :as => :welcome
 
   resources :usuarios
 

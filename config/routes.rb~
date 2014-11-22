@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
-  root :to => 'users#index'
+  #root :to => 'users#index'
 
   resource :user_sessions
+
+  root 'user_sessions#new'
 
   get 'login' => 'user_sessions#new', :as => :login
 
