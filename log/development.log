@@ -29637,3 +29637,881 @@ Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-22 12:20:18 -06
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-22 12:20:18 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-22 12:39:50 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UserSessionsController#new as HTML
+  Rendered user_sessions/_form.html.erb (1.9ms)
+  Rendered user_sessions/new.html.erb within layouts/application (435.6ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1
+Completed 200 OK in 1034ms (Views: 854.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/s/b0dcca.css" for 127.0.0.1 at 2014-11-22 12:39:51 -0600
+
+ActionController::RoutingError (No route matches [GET] "/s/b0dcca.css"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (62.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (15.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (45.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (221.1ms)
+
+
+Started GET "/assets/acompanamientos.css?body=1" for 127.0.0.1 at 2014-11-22 12:39:52 -0600
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2014-11-22 12:39:52 -0600
+
+
+Started GET "/assets/sodas.css?body=1" for 127.0.0.1 at 2014-11-22 12:39:52 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-22 12:39:52 -0600
+
+
+Started GET "/assets/usuarios.css?body=1" for 127.0.0.1 at 2014-11-22 12:39:52 -0600
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2014-11-22 12:39:52 -0600
+
+
+Started GET "/assets/platos.css?body=1" for 127.0.0.1 at 2014-11-22 12:39:52 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-22 12:39:52 -0600
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-22 12:39:52 -0600
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-22 12:39:52 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-22 12:39:52 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-22 12:39:52 -0600
+
+
+Started GET "/assets/snacks.css?body=1" for 127.0.0.1 at 2014-11-22 12:39:52 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-22 12:39:52 -0600
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2014-11-22 12:39:52 -0600
+
+
+Started GET "/assets/snacks.js?body=1" for 127.0.0.1 at 2014-11-22 12:39:52 -0600
+
+
+Started GET "/assets/platos.js?body=1" for 127.0.0.1 at 2014-11-22 12:39:52 -0600
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-22 12:39:52 -0600
+
+
+Started GET "/assets/sodas.js?body=1" for 127.0.0.1 at 2014-11-22 12:39:52 -0600
+
+
+Started GET "/assets/usuarios.js?body=1" for 127.0.0.1 at 2014-11-22 12:39:52 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-22 12:39:52 -0600
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-22 12:39:52 -0600
+
+
+Started GET "/assets/acompanamientos.js?body=1" for 127.0.0.1 at 2014-11-22 12:39:52 -0600
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2014-11-22 12:39:52 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-22 12:41:16 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UserSessionsController#new as HTML
+  Rendered user_sessions/_form.html.erb (1.7ms)
+  Rendered user_sessions/new.html.erb within layouts/application (201.5ms)
+Completed 500 Internal Server Error in 252ms
+
+SyntaxError (/home/llamiro/Documents/UCR/II-2014/Inge2/UmenU/wui/app/views/layouts/application.html.erb:17: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+/home/llamiro/Documents/UCR/II-2014/Inge2/UmenU/wui/app/views/layouts/application.html.erb:31: syntax error, unexpected keyword_ensure, expecting keyword_end
+/home/llamiro/Documents/UCR/II-2014/Inge2/UmenU/wui/app/views/layouts/application.html.erb:33: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/views/layouts/application.html.erb:17: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+  app/views/layouts/application.html.erb:31: syntax error, unexpected keyword_ensure, expecting keyword_end
+  app/views/layouts/application.html.erb:33: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-22 12:41:48 -0600
+Processing by UserSessionsController#new as HTML
+  Rendered user_sessions/_form.html.erb (0.8ms)
+  Rendered user_sessions/new.html.erb within layouts/application (152.1ms)
+Completed 500 Internal Server Error in 157ms
+
+SyntaxError (/home/llamiro/Documents/UCR/II-2014/Inge2/UmenU/wui/app/views/layouts/application.html.erb:17: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+/home/llamiro/Documents/UCR/II-2014/Inge2/UmenU/wui/app/views/layouts/application.html.erb:31: syntax error, unexpected keyword_ensure, expecting keyword_end
+/home/llamiro/Documents/UCR/II-2014/Inge2/UmenU/wui/app/views/layouts/application.html.erb:33: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/views/layouts/application.html.erb:17: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+  app/views/layouts/application.html.erb:31: syntax error, unexpected keyword_ensure, expecting keyword_end
+  app/views/layouts/application.html.erb:33: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-22 12:42:16 -0600
+Processing by UserSessionsController#new as HTML
+  Rendered user_sessions/_form.html.erb (0.8ms)
+  Rendered user_sessions/new.html.erb within layouts/application (171.0ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1
+Completed 200 OK in 420ms (Views: 418.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/acompanamientos.css?body=1" for 127.0.0.1 at 2014-11-22 12:42:16 -0600
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2014-11-22 12:42:16 -0600
+
+
+Started GET "/assets/platos.css?body=1" for 127.0.0.1 at 2014-11-22 12:42:17 -0600
+
+
+Started GET "/assets/snacks.css?body=1" for 127.0.0.1 at 2014-11-22 12:42:17 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-22 12:42:17 -0600
+
+
+Started GET "/s/b0dcca.css" for 127.0.0.1 at 2014-11-22 12:42:17 -0600
+
+ActionController::RoutingError (No route matches [GET] "/s/b0dcca.css"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (10.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (9.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (109.4ms)
+
+
+Started GET "/assets/sodas.css?body=1" for 127.0.0.1 at 2014-11-22 12:42:17 -0600
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2014-11-22 12:42:17 -0600
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-22 12:42:17 -0600
+
+
+Started GET "/assets/usuarios.css?body=1" for 127.0.0.1 at 2014-11-22 12:42:17 -0600
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-22 12:42:17 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-22 12:42:17 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:17 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:17 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:17 -0600
+
+
+Started GET "/assets/acompanamientos.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:17 -0600
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:17 -0600
+
+
+Started GET "/assets/snacks.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:17 -0600
+
+
+Started GET "/assets/platos.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:17 -0600
+
+
+Started GET "/assets/sodas.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:17 -0600
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:17 -0600
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:17 -0600
+
+
+Started GET "/assets/usuarios.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:17 -0600
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:17 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:17 -0600
+
+
+Started POST "/logout" for 127.0.0.1 at 2014-11-22 12:42:21 -0600
+Processing by UserSessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"E7GcopUEuLnCvvSIhFQNzgLcWGNSgFPOrrr9YQGx0bk="}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-22 12:42:21 -0600
+Processing by UserSessionsController#new as HTML
+  Rendered user_sessions/_form.html.erb (0.8ms)
+  Rendered user_sessions/new.html.erb within layouts/application (221.5ms)
+Completed 200 OK in 422ms (Views: 421.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/acompanamientos.css?body=1" for 127.0.0.1 at 2014-11-22 12:42:22 -0600
+
+
+Started GET "/assets/platos.css?body=1" for 127.0.0.1 at 2014-11-22 12:42:22 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-22 12:42:22 -0600
+
+
+Started GET "/assets/sodas.css?body=1" for 127.0.0.1 at 2014-11-22 12:42:22 -0600
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2014-11-22 12:42:22 -0600
+
+
+Started GET "/assets/snacks.css?body=1" for 127.0.0.1 at 2014-11-22 12:42:22 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-22 12:42:22 -0600
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2014-11-22 12:42:22 -0600
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-22 12:42:22 -0600
+
+
+Started GET "/assets/usuarios.css?body=1" for 127.0.0.1 at 2014-11-22 12:42:22 -0600
+
+
+Started GET "/s/b0dcca.css" for 127.0.0.1 at 2014-11-22 12:42:22 -0600
+
+ActionController::RoutingError (No route matches [GET] "/s/b0dcca.css"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (8.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (55.5ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-22 12:42:22 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:22 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:22 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:22 -0600
+
+
+Started GET "/assets/acompanamientos.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:22 -0600
+
+
+Started GET "/assets/snacks.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:22 -0600
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:22 -0600
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:22 -0600
+
+
+Started GET "/assets/sodas.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:22 -0600
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:22 -0600
+
+
+Started GET "/assets/platos.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:22 -0600
+
+
+Started GET "/assets/usuarios.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:22 -0600
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:22 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:22 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-22 12:42:26 -0600
+Processing by UserSessionsController#new as HTML
+  Rendered user_sessions/_form.html.erb (1.6ms)
+  Rendered user_sessions/new.html.erb within layouts/application (140.0ms)
+Completed 200 OK in 346ms (Views: 344.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/s/b0dcca.css" for 127.0.0.1 at 2014-11-22 12:42:27 -0600
+
+ActionController::RoutingError (No route matches [GET] "/s/b0dcca.css"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (9.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (77.8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:27 -0600
+
+
+Started GET "/assets/acompanamientos.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:27 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:27 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:27 -0600
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:27 -0600
+
+
+Started GET "/assets/snacks.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:27 -0600
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:27 -0600
+
+
+Started GET "/assets/usuarios.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:27 -0600
+
+
+Started GET "/assets/platos.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:27 -0600
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:27 -0600
+
+
+Started GET "/assets/sodas.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:27 -0600
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:27 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:27 -0600
+
+
+Started POST "/user_sessions" for 127.0.0.1 at 2014-11-22 12:42:34 -0600
+Processing by UserSessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"l2DPIN6Ke+YveKGD/GjnOGkA9aUotiaKJL63xMZ8Hs0=", "email"=>"admin", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE (email = 'admin')  ORDER BY "users"."id" ASC LIMIT 1
+Redirected to http://localhost:3000/welcome
+Completed 302 Found in 236ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2014-11-22 12:42:34 -0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (171.6ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 391ms (Views: 389.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/acompanamientos.css?body=1" for 127.0.0.1 at 2014-11-22 12:42:35 -0600
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2014-11-22 12:42:35 -0600
+
+
+Started GET "/assets/platos.css?body=1" for 127.0.0.1 at 2014-11-22 12:42:35 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-22 12:42:35 -0600
+
+
+Started GET "/assets/sodas.css?body=1" for 127.0.0.1 at 2014-11-22 12:42:35 -0600
+
+
+Started GET "/assets/snacks.css?body=1" for 127.0.0.1 at 2014-11-22 12:42:35 -0600
+
+
+Started GET "/s/b0dcca.css" for 127.0.0.1 at 2014-11-22 12:42:35 -0600
+
+ActionController::RoutingError (No route matches [GET] "/s/b0dcca.css"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (8.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (63.4ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2014-11-22 12:42:35 -0600
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-22 12:42:35 -0600
+
+
+Started GET "/assets/usuarios.css?body=1" for 127.0.0.1 at 2014-11-22 12:42:35 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-22 12:42:35 -0600
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-22 12:42:35 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:35 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:35 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:35 -0600
+
+
+Started GET "/assets/platos.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:35 -0600
+
+
+Started GET "/assets/acompanamientos.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:35 -0600
+
+
+Started GET "/assets/sodas.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:35 -0600
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:35 -0600
+
+
+Started GET "/assets/snacks.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:35 -0600
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:35 -0600
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:35 -0600
+
+
+Started GET "/assets/usuarios.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:35 -0600
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:35 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:35 -0600
+
+
+Started GET "/comentarios" for 127.0.0.1 at 2014-11-22 12:42:40 -0600
+Processing by ComentariosController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mComentario Load (0.3ms)[0m  [1mSELECT "comentarios".* FROM "comentarios"[0m
+  Rendered comentarios/index.html.erb within layouts/application (45.2ms)
+Completed 200 OK in 262ms (Views: 256.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/s/b0dcca.css" for 127.0.0.1 at 2014-11-22 12:42:40 -0600
+
+ActionController::RoutingError (No route matches [GET] "/s/b0dcca.css"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (9.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (61.5ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2014-11-22 12:42:42 -0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (170.0ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1
+Completed 200 OK in 365ms (Views: 363.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/s/b0dcca.css" for 127.0.0.1 at 2014-11-22 12:42:42 -0600
+
+ActionController::RoutingError (No route matches [GET] "/s/b0dcca.css"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (9.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (58.9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:43 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:43 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:43 -0600
+
+
+Started GET "/assets/acompanamientos.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:43 -0600
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:43 -0600
+
+
+Started GET "/assets/platos.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:43 -0600
+
+
+Started GET "/assets/sodas.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:43 -0600
+
+
+Started GET "/assets/snacks.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:43 -0600
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:43 -0600
+
+
+Started GET "/assets/usuarios.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:43 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:43 -0600
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:43 -0600
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:43 -0600
+
+
+Started GET "/sodas" for 127.0.0.1 at 2014-11-22 12:42:45 -0600
+Processing by SodasController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mSoda Load (0.3ms)[0m  SELECT "sodas".* FROM "sodas"
+  Rendered sodas/index.html.erb within layouts/application (55.4ms)
+Completed 200 OK in 272ms (Views: 266.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/s/b0dcca.css" for 127.0.0.1 at 2014-11-22 12:42:45 -0600
+
+ActionController::RoutingError (No route matches [GET] "/s/b0dcca.css"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (8.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (87.9ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2014-11-22 12:42:47 -0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (153.3ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 353ms (Views: 351.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/s/b0dcca.css" for 127.0.0.1 at 2014-11-22 12:42:48 -0600
+
+ActionController::RoutingError (No route matches [GET] "/s/b0dcca.css"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (8.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (71.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:48 -0600
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:48 -0600
+
+
+Started GET "/assets/acompanamientos.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:48 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:48 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:48 -0600
+
+
+Started GET "/assets/snacks.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:48 -0600
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:48 -0600
+
+
+Started GET "/assets/sodas.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:48 -0600
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:48 -0600
+
+
+Started GET "/assets/usuarios.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:48 -0600
+
+
+Started GET "/assets/platos.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:48 -0600
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:48 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-22 12:42:48 -0600
+
+
+Started GET "/comentarios" for 127.0.0.1 at 2014-11-22 12:42:49 -0600
+Processing by ComentariosController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mComentario Load (0.3ms)[0m  [1mSELECT "comentarios".* FROM "comentarios"[0m
+  Rendered comentarios/index.html.erb within layouts/application (53.7ms)
+Completed 200 OK in 251ms (Views: 248.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/s/b0dcca.css" for 127.0.0.1 at 2014-11-22 12:42:49 -0600
+
+ActionController::RoutingError (No route matches [GET] "/s/b0dcca.css"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (9.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (58.9ms)
