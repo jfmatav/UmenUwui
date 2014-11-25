@@ -20,6 +20,62 @@
     <%= f.label :semana %><br>
     <%= f.number_field :semana %>
   </div>
+
+
+  <div class="field">
+    <%= f.label :acompanamiento %><br>
+    <%= f.text_field :acompanamiento %>
+  </div>
+  <div class="field">
+    <%= f.label :guarnicion %><br>
+    <%= f.text_field :guarnicion %>
+  </div>
+  <div class="field">
+    <%= f.label :ensalada1 %><br>
+    <%= f.text_field :ensalada1 %>
+  </div>
+  <div class="field">
+    <%= f.label :ensalada2 %><br>
+    <%= f.text_field :ensalada2 %>
+  </div>
+  <div class="field">
+    <%= f.label :ensalada3 %><br>
+    <%= f.text_field :ensalada3 %>
+  </div>
+  <div class="field">
+    <%= f.label :ensalada4 %><br>
+    <%= f.text_field :ensalada4 %>
+  </div>
+  <div class="field">
+    <%= f.label :ensalada5 %><br>
+    <%= f.text_field :ensalada5 %>
+  </div>
+  <div class="field">
+    <%= f.label :ensalada6 %><br>
+    <%= f.text_field :ensalada6 %>
+  </div>
+  <div class="field">
+    <%= f.label :fresco1 %><br>
+    <%= f.text_field :fresco1 %>
+  </div>
+  <div class="field">
+    <%= f.label :fresco2 %><br>
+    <%= f.text_field :fresco2 %>
+  </div>
+  <div class="field">
+    <%= f.label :frescosinazucar %><br>
+    <%= f.text_field :frescosinazucar %>
+  </div>
+  <div class="field">
+    <%= f.label :fruta1 %><br>
+    <%= f.text_field :fruta1 %>
+  </div>
+  <div class="field">
+    <%= f.label :fruta2 %><br>
+    <%= f.text_field :fruta2 %>
+  </div>
+
+
   <div class="field">
     <%= f.label :soda_id %><br>
     <%=f.select :soda_id, options_for_select([["Odontología", "1"], ["Derecho", "2"], ["Economía", "3"], ["Agronomía", "4"], ["Generales", "5"], ["Educación", "6"], ["Sociales", "7"], ["Comedor", "8"]])%>
