@@ -102,7 +102,6 @@
                     <table>
                       <thead>
                         <tr>
-                          <th>Acompañamientos</th>
                           <th>Dia</th>
                           <th>Semana</th>
                           <th>Soda</th>
@@ -113,7 +112,6 @@
                       <tbody>
                         <% @acompanamientos.each do |acompanamiento| %>
                           <tr>
-                            <td><%= acompanamiento.acompanamientos %></td>
                             <td><%= numtodia(acompanamiento.dia) %></td>
                             <td><%= acompanamiento.semana %></td>
                             <td><%= idtostring(acompanamiento.soda_id) %></td>
