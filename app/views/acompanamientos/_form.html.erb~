@@ -29,7 +29,7 @@
   <div class="field">
     <%= f.label :guarnicion %><br>
     <%= f.text_field :guarnicion %>
-  </div>
+  </div-->
   <div class="field">
     <%= f.label :ensalada1 %><br>
     <%= f.text_field :ensalada1 %>
@@ -49,7 +49,7 @@
   <div class="field">
     <%= f.label :ensalada5 %><br>
     <%= f.text_field :ensalada5 %>
-  </div-->
+  </div>
   <div class="field">
     <%= f.label :ensalada6 %><br>
     <%= f.text_field :ensalada6 %>
