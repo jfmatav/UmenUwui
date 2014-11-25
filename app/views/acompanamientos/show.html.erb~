@@ -100,9 +100,68 @@
                 <div id="comic">
                   
                     <p>
-                      <strong>Acompanamientos:</strong>
-                      <%= @acompanamiento.acompanamientos %>
+                      <strong>Acompañamiento:</strong>
+                      <%= @acompanamiento.acompanamiento %>
                     </p>
+                    <p>
+                      <strong>Guarnición:</strong>
+                      <%= @acompanamiento.guarnicion %>
+                    </p>
+                    <p>
+                      <strong>Ensalada 1:</strong>
+                      <%= @acompanamiento.ensalada1 %>
+                    </p>
+
+                    <p>
+                      <strong>Ensalada 2:</strong>
+                      <%= @acompanamiento.ensalada2 %>
+                    </p>
+
+                    <p>
+                      <strong>Ensalada 3:</strong>
+                      <%= @acompanamiento.ensalada3 %>
+                    </p>
+
+                    <p>
+                      <strong>Ensalada 4:</strong>
+                      <%= @acompanamiento.ensalada4 %>
+                    </p>
+
+                    <p>
+                      <strong>Ensalada 5:</strong>
+                      <%= @acompanamiento.ensalada5 %>
+                    </p>
+
+                    <p>
+                      <strong>Ensalada 6:</strong>
+                      <%= @acompanamiento.ensalada6 %>
+                    </p>
+
+                    <p>
+                      <strong>Fresco 1:</strong>
+                      <%= @acompanamiento.fresco1 %>
+                    </p>
+
+                    <p>
+                      <strong>Fresco 2:</strong>
+                      <%= @acompanamiento.fresco2 %>
+                    </p>
+
+                    <p>
+                      <strong>Fresco sin azúcar:</strong>
+                      <%= @acompanamiento.frescosinazucar %>
+                    </p>
+
+                    <p>
+                      <strong>Fruta 1:</strong>
+                      <%= @acompanamiento.fruta1 %>
+                    </p>
+
+                    <p>
+                      <strong>Fruta 2:</strong>
+                      <%= @acompanamiento.fruta2 %>
+                    </p>
+
 
                     <p>
                       <strong>Dia:</strong>

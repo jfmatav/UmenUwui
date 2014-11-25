@@ -102,6 +102,20 @@
                     <table>
                       <thead>
                         <tr>
+                          <th>Acompañamiento</th>
+                          <th>Guarnición</th>
+                          <th>Ensalada 1</th>
+                          <th>Ensalada 2</th>
+                          <th>Ensalada 3</th>
+                          <th>Ensalada 4</th>
+                          <th>Ensalada 5</th>
+                          <th>Ensalada 6</th>
+                          <th>Fresco 1</th>
+                          <th>Fresco 2</th>
+                          <th>Fresco sin azúcar</th>
+                          <th>Fruta 1</th>
+                          <th>Fruta 2</th>
+
                           <th>Dia</th>
                           <th>Semana</th>
                           <th>Soda</th>
@@ -112,6 +126,19 @@
                       <tbody>
                         <% @acompanamientos.each do |acompanamiento| %>
                           <tr>
+                            <td><%= acompanamiento.acompanamiento %></td>
+                            <td><%= acompanamiento.guarnicion %></td>
+                            <td><%= acompanamiento.ensalada1 %></td>
+                            <td><%= acompanamiento.ensalada2 %></td>
+                            <td><%= acompanamiento.ensalada3 %></td>
+                            <td><%= acompanamiento.ensalada4 %></td>
+                            <td><%= acompanamiento.ensalada5 %></td>
+                            <td><%= acompanamiento.ensalada6 %></td>
+                            <td><%= acompanamiento.fresco1 %></td>
+                            <td><%= acompanamiento.fresco2 %></td>
+                            <td><%= acompanamiento.frescosinazucar %></td>
+                            <td><%= acompanamiento.fruta1 %></td>
+                            <td><%= acompanamiento.fruta2 %></td>
                             <td><%= numtodia(acompanamiento.dia) %></td>
                             <td><%= acompanamiento.semana %></td>
                             <td><%= idtostring(acompanamiento.soda_id) %></td>
